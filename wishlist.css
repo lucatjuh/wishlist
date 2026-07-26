@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/img/backgroundd.jpg);
+    background-size: contain;
+    font-family: "Poppins", sans-serif;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 18px 380px;
+}
+
+h1 {
+    padding-bottom: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.categories {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.leesboeken {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.puzzelboeken {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.literatuur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.muziek {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.andere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+/*MOBILE*/
+@media (max-width: 768px) {
+    .categories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin-top: 20px;
+    }
+
+    .intro {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .row-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .row-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .leesboeken {
+        gap: 5px;
+    }
+
+    .puzzelboeken {
+        gap: 5px;
+    }
+
+    .literatuur {
+        gap: 5px;
+    }
+
+    .muziek {
+        gap: 5px;
+    }
+
+    .school {
+        gap: 5px;
+    }
+
+    .andere {
+        gap: 5px;
+        padding-bottom: 30px;
+    }
+}
